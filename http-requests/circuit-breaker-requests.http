@@ -1,0 +1,4 @@
+@host =localhost:8000
+
+### Sample API
+GET {{host}}/sample-api
