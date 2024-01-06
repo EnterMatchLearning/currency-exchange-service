@@ -46,3 +46,7 @@ dependencyManagement {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootBuildImage {
+	imageName = "entermatch/mmv3-${project.name}:${project.version}"
+}
